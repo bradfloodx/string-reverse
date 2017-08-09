@@ -1,3 +1,3 @@
-const {strReverse} = require('./index.js');
+const stringReverse = require('./index.js');
 
-strReverse("Hello World") === "dlroW olleH" ? process.exit(0) : process.exit(1);
+stringReverse("Cool Koala") === "alaoK looC" ? process.exit(0) : process.exit(1);

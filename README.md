@@ -4,14 +4,10 @@
 `npm install string-reverse`
 
 ## Usage
-Node.JS:
 ```javascript
-const {strReverse} = require('string-reverse');
-console.log( strReverse("Hello") ); // olleH
-```
+const stringReverse = require('string-reverse');
 
-ES6:
-```javascript
-import {strReverse} from 'string-reverse';
-console.log( strReverse("Hello") ); // olleH
+const backwards = stringReverse('Cool Koala');
+
+console.log(backwards); // 'alaoK looC'
 ```
